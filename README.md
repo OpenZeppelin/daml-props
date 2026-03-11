@@ -13,7 +13,7 @@ Hand-written DAML Script tests validate specific inputs chosen by the developer.
 Clone and build:
 
 ```bash
-git clone https://github.com/4meta5/daml-props.git
+git clone https://github.com/OpenZeppelin/daml-props.git
 cd daml-props
 dpm build
 ```
@@ -221,7 +221,7 @@ daml-props has been validated against two production codebases:
 
 ### canton-network-token-standard (simple-token)
 
-Pure state-machine model of the CIP-056 transfer engine. 4 parties, 6 action types (self-transfer, direct transfer, two-step initiate/accept/reject/withdraw). 5 property tests, all passing. See `Examples/` or the [PUBLIC_AUDIT.md](https://github.com/4meta5/canton-network-token-standard/blob/main/PUBLIC_AUDIT.md).
+Pure state-machine model of the CIP-056 transfer engine. 4 parties, 6 action types (self-transfer, direct transfer, two-step initiate/accept/reject/withdraw). 5 property tests, all passing. See `Examples/`.
 
 ### Splice (amulet)
 
@@ -244,7 +244,7 @@ To use daml-props in your own test package:
 ## Requirements
 
 - DAML SDK 3.4.10 (target: 2.1)
-- Build tool: [`dpm`](https://github.com/4meta5/dpm) (not the deprecated `daml` CLI)
+- Build tool: [`dpm`](https://github.com/OpenZeppelin/dpm) (not the deprecated `daml` CLI)
 - Dependencies: `daml-prim`, `daml-stdlib`, `daml-script`
 
 ## License

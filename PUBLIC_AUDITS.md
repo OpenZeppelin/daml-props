@@ -125,7 +125,7 @@ Add `require "at least one input" (not $ null inputs)` check in `checkTransferCo
 
 ## 2. Validated Findings: canton-network-token-standard
 
-**GitHub:** [4meta5/canton-network-token-standard](https://github.com/4meta5/canton-network-token-standard)
+**GitHub:** [OpenZeppelin/canton-network-token-standard](https://github.com/OpenZeppelin/canton-network-token-standard)
 **Target:** CIP-056 simple-token transfer engine
 
 Pure state-machine model of the CIP-056 transfer engine. 4 parties, 6 action types (self-transfer, direct transfer, two-step initiate/accept/reject/withdraw). 5 property tests, all passing.
@@ -138,7 +138,7 @@ Pure state-machine model of the CIP-056 transfer engine. 4 parties, 6 action typ
 | `test_nonNegativeBalance` | No party has negative balance | PASS |
 | `test_supplyConservation` | Total supply unchanged | PASS |
 
-See [PUBLIC_AUDIT.md](https://github.com/4meta5/canton-network-token-standard/blob/main/PUBLIC_AUDIT.md) for full details.
+See the repository for full details.
 
 ---
 
